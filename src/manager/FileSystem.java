@@ -206,7 +206,6 @@ public class FileSystem {
         dirPadre.removeHijo(nombreAEliminar);
         return true;
     }
-    
     /**
      * Resuelve una ruta (absoluta o relativa) y devuelve el Directorio correspondiente.
      * Este es el método clave para el bonus de "Rutas enteras". 
