@@ -37,7 +37,7 @@ public class Directorio extends FileSystemBase {
         return "Directorio: " + this.getNombre();
     }
 
-    // Sobrescribir equals y hashCode para Directorio, igual que EntradaSistemaArchivos
+    // Sobrescribir equals y hashCode para Directorio
     // Asegurarse de que al comparar directorios, se base en su ruta completa
     @Override
     public boolean equals(Object o) {
